@@ -7,5 +7,5 @@
 
 ## 📂 Estrutura do Repositório
 * 📁 `/dados`: Contém as bases de dados utilizadas no estudo.
-* 📁 `/scripts`: Diretório com os códigos principais estruturados em R.
+* 📁 `/scripts`: Pasta com os códigos principais estruturados em R.
 * 📁 `/extra`: Códigos complementares.
