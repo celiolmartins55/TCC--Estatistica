@@ -1,5 +1,5 @@
 # Ler os dados 
-dados <- read.csv("Data/DadosSerieA.csv")
+dados <- read.csv("DadosSerieA.csv")
 
 # Instalar e carregar os pacotes
 # install.packages("tidyr"); install.packages("dplyr"); install.packages("ggplot2"); install.packages("psych")
