@@ -6,6 +6,6 @@
 
 
 ## 📂 Estrutura do Repositório
-* `/dados`: Bases de dados utilizadas no trabalho.
-* `/Scripts`: Códigos em R contendo a rotina de limpeza, análise descritiva, criação de mapas e modelos multivariados.
-* `/Extra`: Códigos extras do estudo.
+* 📁 `/dados`: Contém as bases de dados utilizadas no estudo.
+* 📁 `/scripts`: Diretório com os códigos principais estruturados em R.
+* 📁 `/extra`: Códigos complementares.
