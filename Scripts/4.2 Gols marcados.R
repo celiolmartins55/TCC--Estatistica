@@ -1,7 +1,7 @@
-#Ler os dados 
-dados <- read.csv("DadosSerieA.csv")
+# Ler os dados 
+dados <- read.csv("Data/DadosSerieA.csv")
 
-# Instalar os pacotes
+# Instalar e carregar os pacotes
 # install.packages("tidyr"); install.packages("dplyr"); install.packages("ggplot2"); install.packages("psych")
 library(dplyr); library(psych); library(tidyr); library(ggplot2)
 
@@ -12,7 +12,7 @@ df_gols_long <- dados %>%
   pivot_longer(cols = everything(), names_to = "tipo", values_to = "gols") %>% 
   mutate(tipo = ifelse(tipo == "gols_mandante", "Mandante", "Visitante"))
 
-#Criar o gráfico
+# Criar o gráfico
 ggplot(df_gols_long, aes(x = gols, fill = tipo)) +
   geom_bar(position = "dodge", alpha = 0.5, width = 0.8) +
   scale_fill_manual(values = c("Mandante" = "blue", "Visitante" = "red")) +
