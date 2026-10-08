@@ -7,7 +7,7 @@ library(Kendall)
 library(trend)
 
 # Carregar os dados com o número de gols marcados por cada estado
-dados_estados <- read.csv("gols_por_estado.csv")
+dados_estados <- read.csv("Data/gols_por_estado.csv")
 
 # Carregar as geometrias dos estados através do pacote geobr
 estados_br <- st_read("BR_UF_2020.shp")
