@@ -5,7 +5,7 @@ library(dplyr)
 library(geosphere)
 
 # Carregar o data.frame que contem as cidades e a longitude dos times mandante e visitante
-dados_cidade <- read.csv("C:\\Users\\Celinho\\Documents\\dados_seriea_lonlat.csv")
+dados_cidade <- read.csv("dados_seriea_lonlat.csv")
 
 # Criar um data.frame com a distância percorrida pelo time visitante para cada partida
 viagens = dados_cidade %>%
